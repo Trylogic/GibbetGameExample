@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivysettings>
+	<include url="https://raw.github.com/bsideup/IvyHelper/master/ivysettings.github.xml" />
+	<include url="https://raw.github.com/bsideup/IvyHelper/master/ivysettings.flexsdk.xml" />
+
+	<settings defaultResolver="default" />
+
+	<resolvers>
+		<chain name="default" returnFirst="true">
+			<resolver ref="github" />
+			<resolver ref="flexsdk" />
+		</chain>
+	</resolvers>
+</ivysettings>
