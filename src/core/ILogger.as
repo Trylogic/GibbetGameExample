@@ -1,1 +1,7 @@
-package core{	public interface ILogger	{		function log( ...args ) : void;	}}
+package core
+{
+	public interface ILogger
+	{
+		function log( ...args ) : void;
+	}
+}
